@@ -1,0 +1,9 @@
+Adding records in Customers Table through Procedure 1(AddCustomer) using IN Parameter.
+Updating Customer City in Customers Table through Procedure 2 (UpdateCustomerCity).
+Updating Total Orders placed by Customers through Procedure 3(UpdateTotalOrders).
+Counting Customers in a City(Delhi) through Procedure 4(CountCustomerByCity) using OUT Parameter.
+Inserting Unique Customers if Email doesn’t exist through Procedure 5(AddUniqueCustomer) using IF condition.
+Getting a customer's loyalty status (Platinum, Gold, Silver, Bronze) based on their TotalOrders through Procedure 6(GetLoyaltyStatus) using CASE Statement.
+Calculating Final Discounted Price using Function 1(GetDiscountedPrice).
+Calculating Offer Price based on Total Orders of Customers in Customers Table using Function 1(GetDiscountedPrice).
+Calculating a normalized engagement score for each customer based on TotalOrders and whether the customer is Active using Function 2(CustomerEngagementScore).
